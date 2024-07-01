@@ -1,27 +1,36 @@
 {
   "expo": {
-    "name": "apex-project",
+    "name": "Apex",
     "slug": "apex-project",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "myapp",
     "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "image": "./src/assets/splash.png",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompanyname.apex"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./src/assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.project.apex"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./src/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eb98a6b7-aeae-4dfc-b348-81ddd693a067"
+      }
+    },
+    "owner": "ebubechimdindu"
   }
 }

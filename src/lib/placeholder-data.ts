@@ -1,0 +1,80 @@
+export const cardData : CardData[] = [
+    {
+        card_id: '1',
+        account_number: parseInt("0678024567",11),
+        account_name: "John Doe",
+        bank_name: "First Bank",
+        card_type: "Debit",
+        balance: 5000,
+        currency: "NGN",
+        expiry_date: "12/25",
+        cvv: 123,
+        card_provider: "Apex",
+        icon_image: "./path_to_icon_image1.png"
+    },
+    {
+        card_id: '2',
+        account_number: parseInt("654890290",11),
+        account_name: "Jane Smith",
+        bank_name: "Zenith Bank",
+        card_type: "Debit",
+        balance: 10000,
+        currency: "NGN",
+        expiry_date: "11/24",
+        cvv: 45,
+        card_provider: "Apex",
+        icon_image: "./path_to_icon_image2.png"
+    },
+    {
+        card_id: '3',
+        account_number: parseInt("12345674320",11),
+        account_name: "Michael Johnson",
+        bank_name: "GTBank",
+        card_type: "Debit",
+        balance: 7500,
+        currency: "NGN",
+        expiry_date: "10/23",
+        cvv: 789,
+        card_provider: "Apex",
+        icon_image: "./path_to_icon_image3.png"
+    },
+    {
+        card_id: '4',
+        account_number: parseInt("6674734567",11),
+        account_name: "John Doe",
+        bank_name: "First Bank",
+        card_type: "Debit",
+        balance: 40000,
+        currency: "NGN",
+        expiry_date: "12/25",
+        cvv: 123,
+        card_provider: "Apex",
+        icon_image: "./path_to_icon_image1.png"
+    },
+    {
+        card_id: '5',
+        account_number: parseInt("6043567890",11),
+        account_name: "Jane Smith",
+        bank_name: "Zenith Bank",
+        card_type: "Debit",
+        balance: 100000,
+        currency: "NGN",
+        expiry_date: "11/24",
+        cvv: 45,
+        card_provider: "Apex",
+        icon_image: "./path_to_icon_image2.png"
+    },
+    {
+        card_id: '6',
+        account_number: parseInt("75432674320",11),
+        account_name: "Michael Johnson",
+        bank_name: "GTBank",
+        card_type: "Debit",
+        balance: 70500,
+        currency: "NGN",
+        expiry_date: "10/23",
+        cvv: 789,
+        card_provider: "Apex",
+        icon_image: "./path_to_icon_image3.png"
+    }
+];
